@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
     s.source_files          = 'Sources/SwiftCentrifuge/*.swift'
     s.source                = { :git => 'https://github.com/centrifugal/centrifuge-swift.git', :tag => s.version }
 
-    s.dependency 'SwiftProtobuf'
+    s.dependency 'SwiftProtobuf', '1.21.0'
 end
